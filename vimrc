@@ -4,3 +4,4 @@ syntax on
 set nocompatible
 filetype plugin indent on
 highlight Normal ctermbg=black
+color dracula
