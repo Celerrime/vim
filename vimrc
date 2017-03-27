@@ -1,5 +1,6 @@
 " Minimum vim requirements
 execute pathogen#infect()
+set encoding=utf-8
 set number			" adds line numbers
 syntax on			" syntax highlighting
 set nocompatible
