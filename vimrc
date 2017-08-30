@@ -3,6 +3,7 @@ execute pathogen#infect()
 set encoding=utf-8
 set number			" adds line numbers
 syntax on			" syntax highlighting
+set mouse=a                     " turns on mouse for scrolling
 set nocompatible
 filetype plugin indent on
 "highlight Normal ctermbg=black
