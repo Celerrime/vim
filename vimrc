@@ -19,4 +19,4 @@ let mapleader = "\<Space>"
 map <leader>rr :source ~/.vim/vimrc<CR>
 
 " Securing editor for editing secrets
-au BufNewFil,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
+au BufNewFile,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
