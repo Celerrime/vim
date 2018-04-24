@@ -5,6 +5,7 @@ set number			" adds line numbers
 syntax on			" syntax highlighting
 set nocompatible
 filetype plugin indent on
+set mouse=a
 "highlight Normal ctermbg=black
 color dracula
 
@@ -16,3 +17,6 @@ let mapleader = "\<Space>"
 
 " source rc with <space>rr
 map <leader>rr :source ~/.vim/vimrc<CR>
+
+" Securing editor for editing secrets
+au BufNewFil,BufRead /dev/shm/gopass.* setlocal noswapfile nobackup noundofile
